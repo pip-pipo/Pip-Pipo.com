@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="http://localhost:3000/static/media/svg_home.57464500.pngf" alt="Client" />
+  <img src="https://avatars.githubusercontent.com/u/69667157?s=460&u=b3c95f91be2b4fdbd1ea91cc18ec796fd64268af&v=4" alt="Client" />
 
 &#xa0;
 
