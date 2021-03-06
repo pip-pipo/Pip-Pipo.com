@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Client" />
+  <img src="http://localhost:3000/static/media/svg_home.57464500.pngf" alt="Client" />
 
 &#xa0;
 
@@ -22,13 +22,13 @@ Pip-Pipo.com?color=56BEB8">
 
 </p>
 
-<!-- Status -->
+## Status
 
-<!-- <h4 align="center">
+<h4 align="center">
 	🚧  Client 🚀 Under construction...  🚧
 </h4>
 
-<hr> -->
+<hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
