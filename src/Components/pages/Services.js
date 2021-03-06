@@ -14,7 +14,7 @@ const Services = () => {
       id: 2,
       title: "Android Application Development",
       src:
-        "https://res.cloudinary.com/codecaamp/image/upload/v1612162150/Designers_-_Copy_-_Copy_-_Copy_armirx.png",
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.nkgEazBtSrW-qIhklAIWDAHaGd%26pid%3DApi&f=1",
     },
     {
       id: 3,
