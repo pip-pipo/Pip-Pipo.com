@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=PT+Mono&display=swap');
+:root { --bg-color:#151515; --bg-color-hover:#242424; --text-color:#DFDFDF; --font-weight:700; --inter-font-family: 'Inter', sans-serif; --box-shadow: 2px 2px 7px 1px #004DE6; --border-color:#00AACC; --transition:500ms; } 
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family:'PT Mono', monospace; font-size: 14px; } 
+
+.navbar { background-color: var(--bg-color); } 
+
+.navbar__first { color: var(--text-color); display: flex; justify-content: space-between; align-items: center; height: 40px; padding: 0px 40px; } 
+
+.navbar__logo { padding: 10px; } 
+
+.navbar__logo a { color: var(--text-color); text-decoration: none; } 
+
+.navbar__menu { display: flex; justify-content: space-between; align-items: center; visibility: visible; padding: 0;} 
+
+.navbar__menu li { list-style: none; } 
+
+.navbar__menu li a { color:var(--text-color); text-decoration: none; padding: 8px 10px; transition: var(--transition); -webkit-transition: var(--transition); -moz-transition: var(--transition); -ms-transition: var(--transition); -o-transition: var(--transition); } 
+
+.navbar__menu li a:hover { background:var(--bg-color-hover); border: 0.50px solid var(--border-color); } 
+
+.navbar__button a { color:var(--text-color); text-decoration: none; padding:8px 15px; border-color: var(--bg-color); transition: var(--transition); -webkit-transition: var(--transition); -moz-transition: var(--transition); -ms-transition: var(--transition); -o-transition: var(--transition); } 
+
+.navbar__button a:hover { background:var(--bg-color-hover); border: 0.50px solid var(--border-color); } 
+
+.navbar__toggle { visibility: hidden; } 
+.navbar__button { visibility: visible; } 
+
+
+@media screen and (max-width:950px){
+ .navbar__toggle { visibility: visible; } 
+ .navbar__menu { display: none; justify-content: space-between; align-items: center; visibility: hidden; } 
+.navbar__button {display: none; visibility: hidden; } 
+.navbar__first { padding: 0px 40px;
+
+} 
+.navbar__button a {padding: 0;}
+.navbar__logo {   width: 7rem; padding: 0px; display: block; }
+.navbar__logo a{
+    display: block;
+    white-space:nowrap;
+} 
+ }

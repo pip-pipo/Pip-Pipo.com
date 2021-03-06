@@ -1,0 +1,68 @@
+:root { 
+    
+    --leter-spacing:2px;
+    --font-size-middle:14px;
+    --color-hover:#0b939c;
+    --bg-color:#151515; --bg-color-hover:#242424; --text-color:#DFDFDF; --font-weight:700; --inter-font-family: 'Inter', sans-serif; --box-shadow: 2px 2px 7px 1px #004DE6; --border-color:#00AACC; --transition:all 500ms ease; } 
+
+
+.dropDown{
+    height: auto;
+    margin: auto;
+    z-index: 999;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    display: none;
+}
+.dropDown__menu{
+    background:var(--bg-color);
+    padding: 2rem 1rem;
+    list-style: none;
+    display: inline-block;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    
+}
+.dropDown__menu li {
+    width: 100%;
+    background: var(--bg-color-hover);
+    padding: 1px 40px;
+    margin: 10px 0;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.dropDown__menu li a{
+    line-height: 3.0rem;
+    font-weight: 400;
+    font-size: var(--font-size-middle);
+    color: var(--text-color);
+    letter-spacing: var(--leter-spacing);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.dropDown__menu li:hover{
+    background: var(--bg-color);
+}
+.dropDown__menu li a:hover{
+    color: var(--color-hover);
+
+}
+
+@media screen and (max-width:950px){
+    .dropDown{
+        display: flex;
+    }
+}
