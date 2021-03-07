@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar__first">
         <div className="navbar__logo">
-          <Link to="/">Pip-Pipo</Link>
+          <Link to="/"><i class="fas fa-terminal"></i> Pip-Pipo </Link>
         </div>
          <div className="navbar__toggle" onClick={clickHandle}>
           <i className={click ? "fas fa-times" : "fas fa-bars"}></i>

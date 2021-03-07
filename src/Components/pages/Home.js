@@ -3,13 +3,16 @@ import "./Home.css";
 import svgHome from "../images/svg_home.png";
 import { motion } from "framer-motion";
 import Services from "./Services";
+import Blog from "./Blog";
+import About from "./About";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
     <div>
 
     
-    <div className="home">
+    <div className="home" id="home">
       <div className="home__container">
         <div className="home__text">
           <h4>
@@ -38,12 +41,15 @@ const Home = () => {
               },
             }}
             src={svgHome}
-            alt=""
+            alt="home_img"
           />
         </div>
       </div>
     </div>
     <Services/>
+    <Blog/>
+    <About/>
+    <Contact/>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 
 export const Button = [
     {
-        path:'/home',
+        path:'#home',
         title:'Home',
     },
      {
@@ -9,15 +9,15 @@ export const Button = [
         title:'Services',
     },
      {
-        path:'/blogs',
+        path:'#blogs',
         title:'Blog',
     },
      {
-        path:'/aboutme',
+        path:'#aboutme',
         title:'About me',
     },
      {
-        path:'/contact',
+        path:'#contact',
         title:'Contact',
     },
 ]

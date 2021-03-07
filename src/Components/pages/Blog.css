@@ -1,0 +1,76 @@
+:root { 
+ --leter-spacing:2px; --font-size-middle:14px; --color-hover:#0b939c; --bg-color:#151515; --bg-color-hover:#242424; --text-color:#DFDFDF; --font-weight:700; --inter-font-family: 'Inter', sans-serif; --box-shadow: 2px 2px 7px 1px #004DE6; --border-color:#00AACC; --transition:all 500ms ease; } 
+
+
+.blogs { height: 140vh; margin: 5rem 0 0 0; 
+background: rgb(224, 224, 224);
+
+} 
+.blogs__container { display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
+.blogs__container h3 { font-size: 3rem; margin:5rem 0; }
+.blogs__container {
+ overflow: hidden; } 
+
+.blogs__container input { padding: 10px 25px; border:2px solid rgb(7, 78, 66); outline: none; border-radius:0.30rem; -webkit-border-radius:0.30rem; -moz-border-radius:0.30rem; -ms-border-radius:0.30rem; -o-border-radius:0.30rem; } 
+.blogs__container input:focus { border:2px solid rgb(7, 8, 78); } 
+.fa-search { color: rgb(255, 255, 255); background: #000; padding:5px 5px; border-radius:0.30rem; -webkit-border-radius:0.30rem; -moz-border-radius:0.30rem; -ms-border-radius:0.30rem; -o-border-radius:0.30rem; transition: all 500ms linear; -webkit-transition: all 500ms linear; -moz-transition: all 500ms linear; -ms-transition: all 500ms linear; -o-transition: all 500ms linear; } 
+
+.fa-search:hover { color:#0b939c; } 
+
+
+.blog__button button { border:none; outline: none; }
+.blog__button { display: flex; border-radius:0.30rem; -webkit-border-radius:0.30rem; -moz-border-radius:0.30rem; -ms-border-radius:0.30rem; -o-border-radius:0.30rem; } 
+
+.blogs__main {
+     margin: 3rem 0;
+      width: 50%; 
+      /* display:grid; place-content: center;  */
+       /* background: #000; */
+       height: 80vh;
+       overflow: scroll;
+} 
+
+.blogs__joke__container { 
+ margin: 3rem 0;
+ border: 1px solid rgb(14, 87, 87);
+ padding: 15px 15px;
+ box-shadow: 2px 2px 2px blue;
+
+ } 
+.blogs__joke__container h3{
+    font-family:var(--inter-font-family);
+    line-height: 55px;
+}
+
+
+@media screen and (max-width:950px){
+ .blogs { 
+ margin: 15rem 0 0 0; } 
+
+
+.blogs__main {
+     margin: 2rem 0;
+      width: 90%; display:
+       grid; place-content: center;
+} 
+
+.blogs__joke__container { 
+ margin: 1rem 0;
+ border: 1px solid rgb(14, 87, 87);
+ padding: 10px 10px;
+ box-shadow: 2px 2px 2px blue;
+ } 
+.blogs__joke__container h3{
+    font-family:var(--inter-font-family);
+    line-height: 35px;
+    font-size: 20px;
+}
+ }
+
+
+ @media screen and (max-width:450px){
+.blogs { 
+ margin: 0rem 0 0 0; } 
+
+
+ }
