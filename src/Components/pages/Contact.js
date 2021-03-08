@@ -111,6 +111,7 @@ const Contact = () => {
               scale: 0.9,
               rotate: 0,
             }}
+            
             src={contact}
             alt=""
           />

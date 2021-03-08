@@ -1,6 +1,170 @@
 .footer_last{
     width: 100%;
-    height: 60vh;
+    height: 100vh;
     margin-top: 3rem;
     background: #000;
+}
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.first{
+margin-top: 3rem;
+width: 400px;
+line-height: 2rem;
+padding: 10px;
+}
+
+.first h2{
+font-size: 1.50rem;
+padding: 3rem;
+color: white;
+}
+
+.first span{
+    color:white;
+}
+.main {
+justify-content: center;
+align-items: center;
+display: flex;
+width: 300px;
+}
+.main img{
+    width: 60%;
+    object-fit: cover;
+    border-radius: 6rem;
+    -webkit-border-radius: 6rem;
+    -moz-border-radius: 6rem;
+    -ms-border-radius: 6rem;
+    -o-border-radius: 6rem;
+}
+.main h3{
+    color:  white;
+    font-size: 1.50rem;
+    white-space: nowrap;
+}
+
+.middle div h3{
+  color:  white;
+    font-size: 1.50rem;
+    white-space: nowrap;
+}
+
+.social {
+list-style: none;
+padding: 0;
+margin-top: 3rem;
+}
+.social li a{
+font-family: fantasy;
+font-size: 1.10rem;
+color:white;
+text-decoration: none;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+.social li a:hover{
+    color: darkcyan;
+
+}
+
+
+.social li a i{ font-size: 3rem; margin: 10px 10px; transition:  all 400ms linear; -webkit-transition:  all 400ms linear; -moz-transition:  all 400ms linear; -ms-transition:  all 400ms linear; -o-transition:  all 400ms linear;
+}
+.social li a i:hover{
+color: darkcyan;
+
+
+}
+
+@media screen and (max-width:950px){
+.footer_last{
+    width: 100%;
+    height: 170vh;
+    margin-top: 3rem;
+    background: #000;
+}
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+}
+.first{
+margin-top: 3rem;
+width: 400px;
+line-height: 2rem;
+padding: 10px;
+}
+
+.first h2{
+font-size: 1.50rem;
+padding: 3rem;
+color: white;
+}
+
+.first span{
+    color:white;
+}
+.main {
+justify-content: center;
+align-items: center;
+display: flex;
+width: 300px;
+}
+.main img{
+    width: 60%;
+    object-fit: cover;
+    border-radius: 6rem;
+    -webkit-border-radius: 6rem;
+    -moz-border-radius: 6rem;
+    -ms-border-radius: 6rem;
+    -o-border-radius: 6rem;
+}
+.main h3{
+    color:  white;
+    font-size: 1.50rem;
+    white-space: nowrap;
+}
+
+.middle div h3{
+  color:  white;
+    font-size: 1.50rem;
+    white-space: nowrap;
+}
+
+.social {
+list-style: none;
+padding: 0;
+margin-top: 3rem;
+}
+.social li a{
+font-family: fantasy;
+font-size: 1.10rem;
+color:white;
+text-decoration: none;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+.social li a:hover{
+    color: darkcyan;
+
+}
+
+
+.social li a i{ font-size: 3rem; margin: 10px 10px; transition:  all 400ms linear; -webkit-transition:  all 400ms linear; -moz-transition:  all 400ms linear; -ms-transition:  all 400ms linear; -o-transition:  all 400ms linear;
+}
+.social li a i:hover{
+color: darkcyan;
+
+
+}
+
+
 }

@@ -41,7 +41,7 @@
 @media screen and (max-width:950px){
     .about{
     width: 100%;
-    height: 90vh;
+    height: 140vh;
     margin-top: 0rem;
     background: rgb(13, 27, 54);
 }
@@ -83,7 +83,7 @@
 
 @media screen and (max-width:450px){
       .about{
-    height: 120vh;
+    height: 110vh;
    
 }
 }
