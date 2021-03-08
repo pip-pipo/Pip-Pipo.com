@@ -9,7 +9,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Footer2 from "./Footer2";
 import Footer3 from "./footer3";
-
+import Footer4 from './Footer4'
 const Home = () => {
   const Fadeleft = {
     hidden:{opacity:0,x:-100},
@@ -79,6 +79,7 @@ const Home = () => {
     <Footer/>
     <Footer2/>
     <Footer3/>
+    <Footer4/>
     </div>
   );
 };
