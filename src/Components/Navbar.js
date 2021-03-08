@@ -37,7 +37,7 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="navbar__button">
-          <Link to="/signup">Sign Up</Link>
+          <a href="https://www.github.com/pip-pipo">My Gitub</a>
         </div>
       </div>
     </nav>

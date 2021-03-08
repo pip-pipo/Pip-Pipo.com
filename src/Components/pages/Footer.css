@@ -1,0 +1,140 @@
+.footer{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 90vh;
+}
+
+/* .footer__container{
+
+} */
+
+.footer__first{
+width: 80%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0rem 3rem;
+padding: 2rem 0;
+
+}
+.footer__first a{
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #bbb;
+    padding: 5px 5px;
+    font: bold;
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition:all 600ms ease-in-out ;
+    -webkit-transition:all 600ms ease-in-out ;
+    -moz-transition:all 600ms ease-in-out ;
+    -ms-transition:all 600ms ease-in-out ;
+    -o-transition:all 600ms ease-in-out ;
+}
+.footer__first a:hover{
+    background: rgb(252, 252, 252);
+    color: #000;
+    border: 2px solid rgb(6, 82, 133);
+}
+
+.footer__first h2{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin: 5px;
+    white-space: nowrap;
+}
+.footer__middle {
+width: 100%;
+}
+.footer__middle .slider div img{
+width: 100%;
+height: 30vh;
+object-fit: cover;
+}
+.footer__last h3{
+    color: white;
+    text-align: center;
+    margin: 3rem 0;
+    font-size: 2rem;
+}
+.footer__last div{
+    color: white;
+   width: 50%;
+   margin: auto;
+}
+
+@media screen and (max-width:768px){
+    .footer{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+}
+
+/* .footer__container{
+
+} */
+
+.footer__first{
+width: 80%;
+margin: 0rem 3rem;
+padding: 2rem 0;
+}
+
+.footer__first a{
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #bbb;
+    padding: 5px 5px;
+    font: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition:all 600ms ease-in-out ;
+    -webkit-transition:all 600ms ease-in-out ;
+    -moz-transition:all 600ms ease-in-out ;
+    -ms-transition:all 600ms ease-in-out ;
+    -o-transition:all 600ms ease-in-out ;
+}
+.footer__first a:hover{
+    background: rgb(252, 252, 252);
+    color: #000;
+    border: 2px solid rgb(6, 82, 133);
+}
+.footer__first h2{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin: 5px;
+    white-space: nowrap;
+}
+.footer__middle {
+width: 100%;
+}
+.footer__middle .slider div img{
+width: 100%;
+height: 30vh;
+object-fit: cover;
+}
+.footer__last h3{
+    color: white;
+    text-align: center;
+    margin: 3rem 0;
+    font-size: 2rem;
+    padding: 10px;
+}
+.footer__last div{
+    color: white;
+   width: 80%;
+   margin: auto;
+}
+}

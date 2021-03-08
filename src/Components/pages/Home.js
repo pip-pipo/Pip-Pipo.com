@@ -6,8 +6,15 @@ import Services from "./Services";
 import Blog from "./Blog";
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "./Footer";
+import Footer2 from "./Footer2";
+import Footer3 from "./footer3";
 
 const Home = () => {
+  const Fadeleft = {
+    hidden:{opacity:0,x:-100},
+    visible:{opacity:1,x:0}
+  }
   return (
     <div>
 
@@ -15,16 +22,35 @@ const Home = () => {
     <div className="home" id="home">
       <div className="home__container">
         <div className="home__text">
-          <h4>
+          <motion.h4
+          
+          initial={{opacity: 0}}
+          animate={{opacity: 1}}
+          transition={{duration:1}}
+          variants={{Fadeleft}}
+          
+          >
             Let's <span className="home__text__contribute">Build</span> Your
             Dream Project's{" "}
-          </h4>
+          </motion.h4>
           <button className="home__text__button">
             <a href="https://www.fiverr.com/mr_morsalin?up_rollout=true">Hire Me</a>
           </button>
         </div>
         <div className="home__img">
           <motion.img
+          whileHover={{
+            scale:[1,1.3,1.1],
+            transition:{
+              duration:.2,
+            }
+          }}
+          initial={{
+            x:150,
+            opacity: 1
+            ,
+            rotate:40,
+          }}
             animate={{
               x: -29,
               y: -2,
@@ -50,6 +76,9 @@ const Home = () => {
     <Blog/>
     <About/>
     <Contact/>
+    <Footer/>
+    <Footer2/>
+    <Footer3/>
     </div>
   );
 };

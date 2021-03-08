@@ -26,18 +26,20 @@ const About = () => {
             alt="img_About"
           />
         </motion.div>
+
         <div className="about__text">
           <Typical
             className="about__text__typical"
             steps={[
-              "Hi i am pip-pipo ",
-              1000,
-              "Hi i am pip-pipo  I am a full | stack web developer ▶",
-              500,
+              "Hi i am pip-pipo . I am a full | stack web developer ▶ ",
+              3000,
+              "Hi i am pip-pipo  I am a full | stack web developer ▶ . & Programmer also A Freelancer .. specializiing in mostly JS, but also write Python, c++ and some other stuff.",
+              4000,
             ]}
             loop={Infinity}
             wrapper="p"
-          />
+            />
+           
         </div>
       </div>
     </div>
